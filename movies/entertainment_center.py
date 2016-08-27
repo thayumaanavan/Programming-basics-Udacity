@@ -17,4 +17,8 @@ avatar=media.Movie("Avatar",
 #avatar.show_trailer()
 import fresh_tomatoes
 movies=[toy_story,avatar]
-fresh_tomatoes.open_movies_page(movies)
+#fresh_tomatoes.open_movies_page(movies)
+print(media.Movie.VALID_RATINGS)
+print(media.Movie.__doc__)
+print(media.Movie.__name__)
+print(media.Movie.__module__)
